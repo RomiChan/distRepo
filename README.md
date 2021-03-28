@@ -20,10 +20,9 @@ Step1: 添加公钥
 > curl -s https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/rpm/gpg_key_pub | sudo apt-key add -
 
 Step2: 添加仓库
-> sudo apt-add-repository https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/deb
+> cp /etc/apt/sources.list /etc/apt/sources.list.bak  
+> echo deb https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/deb nini main >> /etc/apt/sources.list
 
 Step3: 安装
 >sudo apt update  
 >sudo apt install go-cqhttp
-
-如果您在运行`apt-add-repository`时提示`command not found error`, 那么请尝试运行`sudo apt install software-properties-common`, 然后继续执行安装操作
