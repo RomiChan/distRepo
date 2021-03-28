@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: go-cqhttp.org
+Label: go-cqhttp
+Architecture: i386
+Description: Apt repository for go-cqhttp

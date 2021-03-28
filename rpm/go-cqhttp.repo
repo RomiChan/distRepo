@@ -1,0 +1,5 @@
+[go-cqhttp]
+name=go-cqhttp
+baseurl=https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/rpm/dist/
+gpgcheck=1
+gpgkey=https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/rpm/gpg_key_pub
