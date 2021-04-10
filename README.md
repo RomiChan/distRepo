@@ -4,7 +4,7 @@
 
 ## CentOS, RHEL, Fedora (dnf) 选手
 Step1: 添加仓库
-> sudo dnf config-manager --add-repo https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/rpm/go-cqhttp.repo  
+> sudo dnf config-manager --add-repo https://cdn.jsdelivr.net/gh/gocq/distRepo/rpm/go-cqhttp.repo  
  
 Step2: 安装
 
@@ -17,11 +17,11 @@ Step2: 安装
 ## Debian, Ubuntu 选手
 
 Step1: 添加公钥
-> curl -s https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/rpm/gpg_key_pub | sudo apt-key add -
+> curl -s https://cdn.jsdelivr.net/gh/gocq/distRepo/rpm/gpg_key_pub | sudo apt-key add -
 
 Step2: 添加仓库
 > cp /etc/apt/sources.list /etc/apt/sources.list.bak  
-> echo deb https://cdn.jsdelivr.net/gh/SMLKSTO/distRepo/deb nini main >> /etc/apt/sources.list
+> echo deb https://cdn.jsdelivr.net/gh/gocq/distRepo/deb nini main >> /etc/apt/sources.list
 
 Step3: 安装
 >sudo apt update  
