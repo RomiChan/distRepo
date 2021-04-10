@@ -5,7 +5,7 @@ Origin: go-cqhttp.org
 Label: go-cqhttp
 Suite: stable
 Codename: nini
-Date: Fri, 09 Apr 2021 14:55:14 UTC
+Date: Sat, 10 Apr 2021 11:05:42 UTC
 Architectures: i386 amd64 arm64 armhf
 Components: main
 Description: Apt repository for go-cqhttp
@@ -50,8 +50,8 @@ SHA256:
  db329f1d1db5befe132dcf364fccebdfc7c5916aa0cdd88f68d91f20ee0834b0 133 main/binary-armhf/Release
 -----BEGIN PGP SIGNATURE-----
 
-iHUEAREIAB0WIQSRFFnM3DsrbGLpZTpdix0DbvsNLgUCYHBq0gAKCRBdix0DbvsN
-LoQaAPwMMf4FdoXiuN3+8hzcFRQGVGoKtOphZADEbBZKbZm+qwEAzqQMwI81b/Oz
-DV1ITc+Zaq+DH7qJ/6CCsp89A7ecvQc=
-=1bzz
+iHUEAREIAB0WIQSRFFnM3DsrbGLpZTpdix0DbvsNLgUCYHGGiwAKCRBdix0DbvsN
+LhLwAP4uPwCklwgR+EWtONI91UEunvzziVEDhEmgOpG31Wni8gEA2pC8QQzIkeW7
+AIMFYpTl1eFFJT7IwUaGbIP1deJ6Kn0=
+=8EhR
 -----END PGP SIGNATURE-----

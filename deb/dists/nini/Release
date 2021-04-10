@@ -2,7 +2,7 @@ Origin: go-cqhttp.org
 Label: go-cqhttp
 Suite: stable
 Codename: nini
-Date: Fri, 09 Apr 2021 14:55:14 UTC
+Date: Sat, 10 Apr 2021 11:05:42 UTC
 Architectures: i386 amd64 arm64 armhf
 Components: main
 Description: Apt repository for go-cqhttp
