@@ -51,7 +51,8 @@ function GetOSName() {
 }
 
 Update
-LatestVer="${GITHUB_REF#"refs/tags/"}"
+#LatestVer="${GITHUB_REF#"refs/tags/"}"
+LatestVer="beta2"
 #git config --local user.name 'github-actions[bot]'
 #git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
 git add --all
