@@ -7,10 +7,10 @@ function Update() {
     rm -rf ./deb/db ./deb/dist ./pool
     if [ "$OSType" == "0" ]; then
         echo "正在安装reprepro"
-        dnf install reprepro -y
+        sudo dnf install reprepro -y
     elif [ "$OSType" == "1" ]; then
         echo "正在安装reprepro"
-        apt install reprepro -y
+        sudo apt install reprepro -y
     fi
     reprepro -C main -b ./deb includedeb nini ./download/*.deb
     echo "APT仓库更新完成"
@@ -19,10 +19,10 @@ function Update() {
     mv ./download/*.rpm ./rpm/dist/
     if [ "$OSType" == "0" ]; then
         echo "正在安装createrepo"
-        dnf install createrepo -y
+        sudo dnf install createrepo -y
     elif [ "$OSType" == "1" ]; then
         echo "正在安装createrepo"
-        apt install createrepo -y
+        sudo apt install createrepo -y
     fi
     createrepo --update ./rpm/dist
     echo "RPM仓库更新完成"
