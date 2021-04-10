@@ -1,0 +1,9 @@
+Origin: go-cqhttp.org
+Label: go-cqhttp
+Suite: stable
+Codename: nini
+Architectures: i386 amd64 arm64 armhf
+Components: main
+Description: Apt repository for go-cqhttp
+SignWith: 911459CCDC3B2B6C62E9653A5D8B1D036EFB0D2E
+
