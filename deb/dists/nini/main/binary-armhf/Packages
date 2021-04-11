@@ -1,15 +1,15 @@
 Package: go-cqhttp
-Version: 1.0.0~beta2
+Version: 1.0.0~alpha4
 Architecture: armhf
 Maintainer: Mrs4s
 Installed-Size: 15808
 Homepage: https://go-cqhttp.org
 Priority: 
 Section: 
-Filename: pool/main/g/go-cqhttp/go-cqhttp_1.0.0~beta2_armhf.deb
-Size: 6207800
-SHA256: 2b04f614221d2d289f9e9330dbce5bd6d6b80a1805dc14ce5086c1faf74e8a93
-SHA1: 44e37626242338320b0bc2aae82e4233adfc5d7a
-MD5sum: ebf46f7d7ffcad9271e283bfc57788aa
+Filename: pool/main/g/go-cqhttp/go-cqhttp_1.0.0~alpha4_armhf.deb
+Size: 6207912
+SHA256: 66d34cdf82a2e8d29f097c1ee50fa331b0a8d9ce44e3e0e3d38f161f134f0afc
+SHA1: 12c69d419b3529f34d0a4f79358e94831b75abe1
+MD5sum: 7d4006e3008a45d30504c2eff39e5068
 Description: no description given
 
