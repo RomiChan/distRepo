@@ -1,0 +1,3 @@
+[submodule "distUpdater"]
+	path = distUpdater
+	url = git@github.com:gocq/distUpdater.git
