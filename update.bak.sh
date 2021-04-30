@@ -4,7 +4,6 @@ function Update() {
     GetOSName
     local OSType=$?
     echo "更新APT仓库中..."
-    rm -rf ./deb/db ./deb/dist ./deb/pool
     if [ "$OSType" == "0" ]; then
         echo "正在安装reprepro"
         sudo dnf install reprepro -y
@@ -15,7 +14,6 @@ function Update() {
     reprepro -C main -b ./deb includedeb nini ./download/*.deb
     echo "APT仓库更新完成"
     echo "更新RPM仓库中..."
-    rm -f ./rpm/dist/*.rpm
     mv ./download/*.rpm ./rpm/dist/
     if [ "$OSType" == "0" ]; then
         echo "正在安装createrepo"
