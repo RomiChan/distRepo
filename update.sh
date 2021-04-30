@@ -4,7 +4,7 @@ function Update() {
     GetOSName
     local OSType=$?
     echo "更新APT仓库中..."
-    rm -rf ./deb/db ./deb/dist ./pool
+    rm -rf ./deb/db ./deb/dist ./deb/pool
     if [ "$OSType" == "0" ]; then
         echo "正在安装reprepro"
         sudo dnf install reprepro -y
@@ -56,6 +56,7 @@ git config --local user.name 'github-actions[bot]'
 git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
 git add --all
 git commit -m "update to $LatestVer"
+echo $LatestVer | sed 's/-/~/g' > LatestVer
 git tag -d "$LatestVer"
 git tag "$LatestVer"
 git push
