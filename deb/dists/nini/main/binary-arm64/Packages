@@ -1,0 +1,15 @@
+Package: go-cqhttp
+Version: 1.0.0~alpha5
+Architecture: arm64
+Maintainer: Mrs4s
+Installed-Size: 18112
+Homepage: https://go-cqhttp.org
+Priority: 
+Section: 
+Filename: pool/main/g/go-cqhttp/go-cqhttp_1.0.0~alpha5_arm64.deb
+Size: 6309100
+SHA256: ddf6f9e855036428935fb43c795bf7ecf17f81e710301354016ee7e1fd3571aa
+SHA1: d7c49e4e69562631500bce06cc498834e6e92648
+MD5sum: ca66412e800e2470500cc801c6cc1270
+Description: no description given
+
